@@ -1,6 +1,24 @@
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+a {
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1500px;
+  padding: 0 20px;
+  overflow: auto;
+
+  /* my testing settings */
+  border: 2px;
+  border-style: solid;
+  border-color: red;
 }
