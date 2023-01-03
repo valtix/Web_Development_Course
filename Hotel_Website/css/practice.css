@@ -5,15 +5,10 @@
   box-sizing: border-box;
 }
 
-/* Main Styling */
-a {
-  text-decoration: none;
-}
-
 /* Utility Classes */
 .container {
   margin: auto;
-  max-width: 1500px;
+  max-width: 1300px;
   padding: 0 20px;
   overflow: auto;
 
@@ -21,4 +16,30 @@ a {
   border: 2px;
   border-style: solid;
   border-color: red;
+}
+
+/* nav */
+nav {
+  background: #150805;
+}
+
+#nav-right ul {
+  list-style: none;
+  float: right;
+}
+
+#nav-left ul {
+  list-style: none;
+  float: left;
+}
+
+#nav-right ul li {
+  float: left;
+}
+
+#nav-right ul li a {
+  color: #ffffff;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
 }
