@@ -11,11 +11,6 @@
   max-width: 1300px;
   padding: 0 20px;
   overflow: auto;
-
-  /* my testing settings */
-  border: 2px;
-  border-style: solid;
-  border-color: red;
 }
 
 /* nav */
@@ -23,23 +18,50 @@ nav {
   background: #150805;
 }
 
-#nav-right ul {
+#nav-left {
+  list-style: none;
+  float: left;
+}
+
+#nav-left li {
+  float: left;
+}
+
+#nav-left li a {
+  color: #ffffff;
+  padding: 25px;
+  display: block;
+  text-decoration: none;
+}
+
+#nav-right {
   list-style: none;
   float: right;
 }
 
-#nav-left ul {
-  list-style: none;
+#nav-right li {
   float: left;
 }
 
-#nav-right ul li {
-  float: left;
-}
-
-#nav-right ul li a {
+#nav-right li a {
   color: #ffffff;
-  padding: 15px;
+  padding: 25px;
   display: block;
   text-decoration: none;
+}
+
+/* Main Content Home */
+#home-main-content {
+  background: url("../img/web_idea2_img.jpg") no-repeat center center/cover;
+  height: 1500px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #ffffff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
 }
