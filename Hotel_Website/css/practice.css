@@ -13,6 +13,10 @@
   overflow: auto;
 }
 
+.primary-text {
+  color: yellow;
+}
+
 /* nav */
 nav {
   background: #150805;
@@ -52,16 +56,36 @@ nav {
 
 /* Main Content Home */
 #home-main-content {
-  background: url("../img/web_idea2_img.jpg") no-repeat center center/cover;
-  height: 1500px;
+  background-image: url("../img/web_idea2_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+
+  padding-top: 150px;
+  padding-left: 50px;
+  color: #ffffff;
+}
+
+#home-main-content h5 {
+  padding-bottom: 25px;
+}
+
+#home-main-content h1 {
+  font-size: 80px;
+  padding-bottom: 20px;
+}
+
+#home-main-content p {
+  padding-bottom: 25px;
 }
 
 .btn {
   display: inline-block;
-  font-size: 18px;
+  font-size: 12px;
   color: #ffffff;
-  background: #333;
+  background: none;
   padding: 13px 20px;
-  border: none;
+  border: 1px solid yellow;
   cursor: pointer;
 }
