@@ -11,15 +11,26 @@
   max-width: 1300px;
   padding: 0 20px;
   overflow: auto;
+
+  /*border: solid red;*/
 }
 
 .primary-text {
   color: yellow;
 }
 
+body {
+  background-image: url("../img/web_idea2_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 1000px;
+}
+
 /* nav */
 nav {
-  background: #150805;
+  background: black;
+  border-top: solid yellow 1px;
 }
 
 #nav-left {
@@ -32,7 +43,7 @@ nav {
 }
 
 #nav-left li a {
-  color: #ffffff;
+  color: whitesmoke;
   padding: 25px;
   display: block;
   text-decoration: none;
@@ -48,36 +59,33 @@ nav {
 }
 
 #nav-right li a {
-  color: #ffffff;
+  color: whitesmoke;
   padding: 25px;
   display: block;
   text-decoration: none;
 }
 
 /* Main Content Home */
-#home-main-content {
-  background-image: url("../img/web_idea2_img.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 600px;
 
-  padding-top: 150px;
-  padding-left: 50px;
+#home-main-content {
   color: #ffffff;
 }
 
 #home-main-content h5 {
-  padding-bottom: 25px;
+  padding-top: 140px;
+  padding-left: 25px;
+  padding-bottom: 15px;
 }
 
 #home-main-content h1 {
   font-size: 80px;
-  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-bottom: 15px;
 }
 
 #home-main-content p {
-  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-bottom: 45px;
 }
 
 .btn {
@@ -85,7 +93,8 @@ nav {
   font-size: 12px;
   color: #ffffff;
   background: none;
-  padding: 13px 20px;
+  margin-left: 25px;
+  padding: 15px;
   border: 1px solid yellow;
   cursor: pointer;
 }
